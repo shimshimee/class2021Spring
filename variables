@@ -1,0 +1,43 @@
+In [ ]:
+a = 1; print(type(a))
+<class 'int'>
+In [ ]:
+a = 1; a = float(a); print(type(a))
+<class 'float'>
+In [ ]:
+a = 1.2; a = int(a); print(type(a))
+<class 'int'>
+In [ ]:
+a = '123'; print(type(a)); print(a[1])
+<class 'str'>
+2
+In [ ]:
+a = '123'; a = list(a); print(type(a)); print(a); print(a[2])
+<class 'list'>
+['1', '2', '3']
+3
+In [ ]:
+a = [1,'2', [3, '4']]; print(type(a)); print(a[0]); print(a[1]); print(a[2])
+<class 'list'>
+1
+2
+[3, '4']
+In [ ]:
+a = (1,'2', [3, '4']); print(type(a)); print(a[0]); print(a[1]); print(a[2])
+<class 'tuple'>
+1
+2
+[3, '4']
+In [ ]:
+a =	{"a": "apple", "b": "orange", "c": 2014}
+print(type(a))
+print(a["a"])
+<class 'dict'>
+apple
+In [ ]:
+a=[(1,2,3), (3,8,0)]
+print(type(a))
+a
+<class 'list'>
+Out[ ]:
+[(1, 2, 3), (3, 8, 0)]
